@@ -5,7 +5,17 @@
 
 body {
     background-color: #242424;
+    margin:auto;
+    padding: auto;
 }
+
+header {
+    background-color: black;
+    margin:0;
+    padding: 1%;
+}
+
+
 a.nav-lien {
     text-decoration: none;
     color: white;
