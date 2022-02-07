@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "DINALTERNATE";
+    src: url(./DINAlternate-Bold.ttf) format("truetype");
+}
+
+body {
+    background-color: #242424;
+}
+a.nav-lien {
+    text-decoration: none;
+    color: white;
+    margin-left: 130px;
+    font-size: 20px;
+}
+.nav4 {
+    margin-right: 30px
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
