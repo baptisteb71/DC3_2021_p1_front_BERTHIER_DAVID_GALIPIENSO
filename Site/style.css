@@ -1,4 +1,3 @@
-
 body {
     background-color: #242424;
     margin: auto;
@@ -61,7 +60,7 @@ label,
     display: none;
 }
 
-@media all and (max-width: 991px) {
+@media all and (max-width: 768px) {
     nav {
         height: 60px;
     }
@@ -69,8 +68,8 @@ label,
     nav .navigation {
         display: none;
         flex-direction: column;
-        background: #000000;
-        height: 220px;
+        background-color: #000000;
+        z-index : 1;
     }
 
     .imglogo {
@@ -80,6 +79,7 @@ label,
 
     ul {
         flex-direction: column;
+        z-index : 1;
     }
 
     nav .navigation a {
@@ -103,6 +103,55 @@ label,
 
     #toggle:checked+.navigation {
         display: flex;
+    }
+    #anim {
+        font-size:30px;
+    }
+.carte {
+    flex-direction: column!important;
+}
+.carte div {
+    width: 50%!important;
+    font-size: 13px!important;
+}
+.voirplus {
+    font-size: 18px!important;
+    padding: 10px 20px!important;
+}
+    .tendance {
+        display: grid;
+        grid-template-columns: none !important;
+    }
+.troisieme {
+    padding-top: 1px!important;
+}
+    .playlist {
+        display: grid;
+        grid-template-columns: none !important
+    }
+    .haut {
+        display: grid;
+        grid-template-columns: none !important
+    }
+    .video1,
+    .video2 {
+        width: 200px;
+        height: 100px;
+        margin-left: 100px;
+    }
+
+    .listfooter {
+        padding:0;
+    }
+
+    .contact{
+        font-size: 15px!important;
+        margin-left: 10%!important;
+        padding: 5px 30px!important;
+    }
+
+    .question h3 {
+        font-size: 25px!important;
     }
 }
 
@@ -233,24 +282,25 @@ label,
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .separateur {
     min-width: 100%;
     min-height: 100%;
     background-color: #5b8743;
     transform: skewY(2deg);
     transform-origin: top left;
-    margin-top:5%;
+    margin-top: 5%;
     padding-bottom: 5%;
-  }
+}
 
-  .separateur1 {
+.separateur1 {
     min-width: 100%;
     min-height: 100%;
     background-color: #5b8743;
     transform: skewY(2deg);
     transform-origin: top left;
     padding-bottom: 4%;
-  }
+}
 
 .troisieme {
     margin-bottom: 5%;
@@ -271,16 +321,17 @@ label,
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 2%;
-    padding-right: 2% ;
+    padding-right: 2%;
 }
+
 .question {
-    width : 70%;
-margin-left: 15%;
-padding:1%;
-border-radius:5px;
-background-color: rgba(0, 0, 0, 0.034);
-box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.356);
-margin-bottom: 5%;
+    width: 70%;
+    margin-left: 15%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.034);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.356);
+    margin-bottom: 5%;
 }
 
 .contact {
@@ -293,7 +344,7 @@ margin-bottom: 5%;
 }
 
 .contact:hover {
-    color:#5b8743;
+    color: #5b8743;
     background-color: #242424;
 
 }
@@ -304,6 +355,7 @@ margin-bottom: 5%;
     font-size: 30px;
     margin-bottom: 3%;
 }
+
 /*footer*/
 footer {
     font-size: 20px;
@@ -337,7 +389,7 @@ footer .haut {
 .copyright {
     text-align: center;
     color: #242424;
-    margin:0%;
+    margin: 0%;
     font-size: 10px;
 }
 
