@@ -1,12 +1,9 @@
-@font-face {
-    font-family: "DINALTERNATE";
-    src: url(./image/DINAlternate-Bold.ttfs) format("truetype");
-}
 
 body {
     background-color: #242424;
     margin: auto;
     padding: auto;
+    font-family: 'DIN Alternate', sans-serif;
 }
 
 header {
