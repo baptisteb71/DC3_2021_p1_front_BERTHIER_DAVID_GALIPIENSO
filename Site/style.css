@@ -65,11 +65,12 @@ label,
         height: 60px;
     }
 
-    nav .navigation {
+    div.navigation {
         display: none;
         flex-direction: column;
         background-color: #000000;
         z-index: 1;
+        height: 100px;
     }
 
     .imglogo {
@@ -81,9 +82,10 @@ label,
     ul {
         flex-direction: column;
         z-index: 1;
+        background-color: #000000;
     }
 
-    nav .navigation a {
+    .navigation a {
         text-align: center;
     }
 
@@ -104,6 +106,7 @@ label,
 
     #toggle:checked+.navigation {
         display: flex;
+        background-color: #000000;
     }
 
     #anim {
@@ -164,11 +167,15 @@ label,
         font-size: 25px !important;
     }
 
+    .newsletter {
+        display: none;
+    }
+
 
     /*page contact*/
     .contactform {
-        width: 400px!important;
-        height:450px!important;
+        width: 400px !important;
+        height: 450px !important;
     }
 
     .formu {
@@ -196,7 +203,7 @@ label,
         height: 60px;
     }
 
-    nav .navigation {
+    .navigation {
         display: none;
         flex-direction: column;
         background-color: #000000;
@@ -298,10 +305,14 @@ label,
         font-size: 25px !important;
     }
 
+    .newsletter {
+        display: none;
+    }
+
     /*Page contact respon*/
     .contactform {
-        width: 700px!important;
-        height:580px!important;
+        width: 700px !important;
+        height: 580px !important;
     }
 
     .formu {
@@ -522,6 +533,44 @@ label,
     margin-bottom: 3%;
 }
 
+
+.newsletter {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    background-color: #5b8743;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter p {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.news {
+    margin-top: 10px;
+    background-color: #5b8743;
+    color: #fff;
+    border-color: #000000;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.newsletterbtn {
+    background-color: #5b8743;
+    border-color: #000000;
+    font-size: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+
 /*footer*/
 footer {
     font-size: 20px;
@@ -564,6 +613,7 @@ footer .haut {
     flex-direction: column;
     text-align: center;
 }
+
 
 
 
