@@ -720,6 +720,10 @@ input {
     margin-bottom: 5px;
 }
 
+.container {
+    padding: 5%;
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     .container_page {
@@ -747,7 +751,6 @@ input {
         width: 210px;
         height: 180px;
     }
-
 }
 
 @media (max-width: 768px) {
@@ -794,7 +797,6 @@ input {
 
     .container {
         margin-bottom: 20px;
-        padding: 5%;
     }
 
     .left_space {
