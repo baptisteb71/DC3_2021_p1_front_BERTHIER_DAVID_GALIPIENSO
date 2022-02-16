@@ -558,7 +558,7 @@ label,
     border-color: #000000;
 }
 
-input::placeholder {
+.newsletter input::placeholder {
     color: black;
 }
 
